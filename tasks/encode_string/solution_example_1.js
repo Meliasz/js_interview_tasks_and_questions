@@ -3,7 +3,7 @@ function encode(str, nr = 0) {
 
     return str.split('').map(e => letters.indexOf(e) + nr).reduce((a, c) => {
         if (c >= letters.length) {
-            c = c * letters.length * 2 ? c % letters.length : c - letters.length;
+            c = c % letters.length;
         }
         return a + letters[c]
     }, '')
