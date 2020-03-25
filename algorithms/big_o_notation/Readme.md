@@ -59,4 +59,4 @@ function printAllPairs(n) {
 
 ## Performance chart
 
-![alt text](/img/o_notation_chart.jpg "Performance")
+![alt text](/algorithms/big_o_notation/img/o_notation_chart.jpg "Performance")
